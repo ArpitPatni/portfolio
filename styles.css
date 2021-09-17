@@ -84,3 +84,21 @@ hr{
 .navigation .link-active{
     font-weight: bold;
 }
+
+
+/* styling the header part */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+}
