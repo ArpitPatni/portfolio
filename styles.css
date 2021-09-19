@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #8B5CF6;
+    --gray-color: #6B7280;
 }
 
 body{
@@ -101,4 +102,8 @@ hr{
 .hero .hero-heading{
     text-align: center;
     padding-top: 1rem;
+    color: var(--gray-color);
+}
+.hero .hero-heading .heading-highlighted-text{
+    color: var(--primary-color);
 }
